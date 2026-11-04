@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "chat2discord-client",
+  "version": "1.0.0",
+  "name": "Chat2Discord Client",
+  "description": "Wysyła na Discord (webhook) to, co wpisujesz w grze, np. komendę /dc cokolwiek. Działa na każdym serwerze.",
+  "authors": ["Kacper"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.chat2discord.client.Chat2DiscordClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
